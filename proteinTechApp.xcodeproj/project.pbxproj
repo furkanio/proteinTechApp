@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FE3CD7211EDCC313CD651A0 /* Pods_proteinTechApp_proteinTechAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389EEBCDD5462CBE9792BD35 /* Pods_proteinTechApp_proteinTechAppUITests.framework */; };
+		3A31F24A05BEC48DD7A2E63B /* Pods_proteinTechAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84477C5E17F2B4AF359FA2 /* Pods_proteinTechAppTests.framework */; };
+		6C2E07E926D41644003E5296 /* friendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E07E826D41644003E5296 /* friendsTableViewController.swift */; };
+		6C2E07EB26D41839003E5296 /* friendsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E07EA26D41839003E5296 /* friendsDetail.swift */; };
+		6C2E07EF26D518C5003E5296 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E07EE26D518C5003E5296 /* Model.swift */; };
+		6C2E07F126D52009003E5296 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E07F026D52009003E5296 /* Service.swift */; };
+		6C2E07F526D81AA6003E5296 /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E07F426D81AA6003E5296 /* FriendViewModel.swift */; };
+		6C2E07F726D820F2003E5296 /* friendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E07F626D820F2003E5296 /* friendsTableViewCell.swift */; };
+		6C72F95D26D3AA4500670EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72F95C26D3AA4500670EF2 /* AppDelegate.swift */; };
+		6C72F95F26D3AA4500670EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72F95E26D3AA4500670EF2 /* SceneDelegate.swift */; };
+		6C72F96126D3AA4500670EF2 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72F96026D3AA4500670EF2 /* signInViewController.swift */; };
+		6C72F96426D3AA4500670EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C72F96226D3AA4500670EF2 /* Main.storyboard */; };
+		6C72F96726D3AA4500670EF2 /* proteinTechApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C72F96526D3AA4500670EF2 /* proteinTechApp.xcdatamodeld */; };
+		6C72F96926D3AA4600670EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C72F96826D3AA4600670EF2 /* Assets.xcassets */; };
+		6C72F96C26D3AA4600670EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C72F96A26D3AA4600670EF2 /* LaunchScreen.storyboard */; };
+		6C72F97726D3AA4700670EF2 /* proteinTechAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72F97626D3AA4700670EF2 /* proteinTechAppTests.swift */; };
+		6C72F98226D3AA4700670EF2 /* proteinTechAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72F98126D3AA4700670EF2 /* proteinTechAppUITests.swift */; };
+		6CC21EA226D8629F00D2960A /* KingFisherImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC21EA126D8629F00D2960A /* KingFisherImageViewExtension.swift */; };
+		89A6B953641F46932D9B0B57 /* Pods_proteinTechApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1FDDF59644C16EEE58B25F /* Pods_proteinTechApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C72F97326D3AA4700670EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C72F95126D3AA4500670EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C72F95826D3AA4500670EF2;
+			remoteInfo = proteinTechApp;
+		};
+		6C72F97E26D3AA4700670EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C72F95126D3AA4500670EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C72F95826D3AA4500670EF2;
+			remoteInfo = proteinTechApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01173D41C4C085DF4875765D /* Pods-proteinTechApp-proteinTechAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proteinTechApp-proteinTechAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-proteinTechApp-proteinTechAppUITests/Pods-proteinTechApp-proteinTechAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A84477C5E17F2B4AF359FA2 /* Pods_proteinTechAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proteinTechAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D48DCF382D8762FEE6A9006 /* Pods-proteinTechApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proteinTechApp.release.xcconfig"; path = "Target Support Files/Pods-proteinTechApp/Pods-proteinTechApp.release.xcconfig"; sourceTree = "<group>"; };
+		389EEBCDD5462CBE9792BD35 /* Pods_proteinTechApp_proteinTechAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proteinTechApp_proteinTechAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA23F9FCF54294B080F1A60 /* Pods-proteinTechAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proteinTechAppTests.debug.xcconfig"; path = "Target Support Files/Pods-proteinTechAppTests/Pods-proteinTechAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2E07E826D41644003E5296 /* friendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsTableViewController.swift; sourceTree = "<group>"; };
+		6C2E07EA26D41839003E5296 /* friendsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsDetail.swift; sourceTree = "<group>"; };
+		6C2E07EE26D518C5003E5296 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6C2E07F026D52009003E5296 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6C2E07F426D81AA6003E5296 /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
+		6C2E07F626D820F2003E5296 /* friendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsTableViewCell.swift; sourceTree = "<group>"; };
+		6C72F95926D3AA4500670EF2 /* proteinTechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proteinTechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C72F95C26D3AA4500670EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C72F95E26D3AA4500670EF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C72F96026D3AA4500670EF2 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		6C72F96326D3AA4500670EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C72F96626D3AA4500670EF2 /* proteinTechApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = proteinTechApp.xcdatamodel; sourceTree = "<group>"; };
+		6C72F96826D3AA4600670EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C72F96B26D3AA4600670EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C72F96D26D3AA4600670EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C72F97226D3AA4700670EF2 /* proteinTechAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proteinTechAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C72F97626D3AA4700670EF2 /* proteinTechAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proteinTechAppTests.swift; sourceTree = "<group>"; };
+		6C72F97826D3AA4700670EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C72F97D26D3AA4700670EF2 /* proteinTechAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proteinTechAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C72F98126D3AA4700670EF2 /* proteinTechAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proteinTechAppUITests.swift; sourceTree = "<group>"; };
+		6C72F98326D3AA4700670EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC21EA126D8629F00D2960A /* KingFisherImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherImageViewExtension.swift; sourceTree = "<group>"; };
+		7D9280C47C3257F078F61FF3 /* Pods-proteinTechApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proteinTechApp.debug.xcconfig"; path = "Target Support Files/Pods-proteinTechApp/Pods-proteinTechApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1FDDF59644C16EEE58B25F /* Pods_proteinTechApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proteinTechApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0CF0F67B306B37164CF90A /* Pods-proteinTechApp-proteinTechAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proteinTechApp-proteinTechAppUITests.release.xcconfig"; path = "Target Support Files/Pods-proteinTechApp-proteinTechAppUITests/Pods-proteinTechApp-proteinTechAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EE7A389982288182AF74DFF /* Pods-proteinTechAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proteinTechAppTests.release.xcconfig"; path = "Target Support Files/Pods-proteinTechAppTests/Pods-proteinTechAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C72F95626D3AA4500670EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A6B953641F46932D9B0B57 /* Pods_proteinTechApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72F96F26D3AA4700670EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A31F24A05BEC48DD7A2E63B /* Pods_proteinTechAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72F97A26D3AA4700670EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE3CD7211EDCC313CD651A0 /* Pods_proteinTechApp_proteinTechAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563835C825E761CF19ED6DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9280C47C3257F078F61FF3 /* Pods-proteinTechApp.debug.xcconfig */,
+				0D48DCF382D8762FEE6A9006 /* Pods-proteinTechApp.release.xcconfig */,
+				01173D41C4C085DF4875765D /* Pods-proteinTechApp-proteinTechAppUITests.debug.xcconfig */,
+				9E0CF0F67B306B37164CF90A /* Pods-proteinTechApp-proteinTechAppUITests.release.xcconfig */,
+				3AA23F9FCF54294B080F1A60 /* Pods-proteinTechAppTests.debug.xcconfig */,
+				9EE7A389982288182AF74DFF /* Pods-proteinTechAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C72F95026D3AA4500670EF2 = {
+			isa = PBXGroup;
+			children = (
+				6C72F95B26D3AA4500670EF2 /* proteinTechApp */,
+				6C72F97526D3AA4700670EF2 /* proteinTechAppTests */,
+				6C72F98026D3AA4700670EF2 /* proteinTechAppUITests */,
+				6C72F95A26D3AA4500670EF2 /* Products */,
+				563835C825E761CF19ED6DFE /* Pods */,
+				DBDFA79024500EDD935EC3DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C72F95A26D3AA4500670EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C72F95926D3AA4500670EF2 /* proteinTechApp.app */,
+				6C72F97226D3AA4700670EF2 /* proteinTechAppTests.xctest */,
+				6C72F97D26D3AA4700670EF2 /* proteinTechAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C72F95B26D3AA4500670EF2 /* proteinTechApp */ = {
+			isa = PBXGroup;
+			children = (
+				6CDEFC7F26D9094B0026E937 /* Model */,
+				6CDEFC8026D9095B0026E937 /* Networking + API */,
+				6CDEFC8126D909780026E937 /* View */,
+				6CDEFC8226D909810026E937 /* ViewModel */,
+				6CDEFC8326D909900026E937 /* Controller */,
+				6CDEFC8426D90AB00026E937 /* Common */,
+				6C72F96826D3AA4600670EF2 /* Assets.xcassets */,
+				6C72F96A26D3AA4600670EF2 /* LaunchScreen.storyboard */,
+				6C72F96D26D3AA4600670EF2 /* Info.plist */,
+				6C72F96526D3AA4500670EF2 /* proteinTechApp.xcdatamodeld */,
+			);
+			path = proteinTechApp;
+			sourceTree = "<group>";
+		};
+		6C72F97526D3AA4700670EF2 /* proteinTechAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C72F97626D3AA4700670EF2 /* proteinTechAppTests.swift */,
+				6C72F97826D3AA4700670EF2 /* Info.plist */,
+			);
+			path = proteinTechAppTests;
+			sourceTree = "<group>";
+		};
+		6C72F98026D3AA4700670EF2 /* proteinTechAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C72F98126D3AA4700670EF2 /* proteinTechAppUITests.swift */,
+				6C72F98326D3AA4700670EF2 /* Info.plist */,
+			);
+			path = proteinTechAppUITests;
+			sourceTree = "<group>";
+		};
+		6CDEFC7F26D9094B0026E937 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E07EE26D518C5003E5296 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CDEFC8026D9095B0026E937 /* Networking + API */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E07F026D52009003E5296 /* Service.swift */,
+				6CC21EA126D8629F00D2960A /* KingFisherImageViewExtension.swift */,
+			);
+			path = "Networking + API";
+			sourceTree = "<group>";
+		};
+		6CDEFC8126D909780026E937 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C72F96226D3AA4500670EF2 /* Main.storyboard */,
+				6C2E07EA26D41839003E5296 /* friendsDetail.swift */,
+				6C2E07F626D820F2003E5296 /* friendsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CDEFC8226D909810026E937 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E07F426D81AA6003E5296 /* FriendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6CDEFC8326D909900026E937 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C72F96026D3AA4500670EF2 /* signInViewController.swift */,
+				6C2E07E826D41644003E5296 /* friendsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CDEFC8426D90AB00026E937 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6C72F95C26D3AA4500670EF2 /* AppDelegate.swift */,
+				6C72F95E26D3AA4500670EF2 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DBDFA79024500EDD935EC3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F1FDDF59644C16EEE58B25F /* Pods_proteinTechApp.framework */,
+				389EEBCDD5462CBE9792BD35 /* Pods_proteinTechApp_proteinTechAppUITests.framework */,
+				0A84477C5E17F2B4AF359FA2 /* Pods_proteinTechAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C72F95826D3AA4500670EF2 /* proteinTechApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C72F98626D3AA4700670EF2 /* Build configuration list for PBXNativeTarget "proteinTechApp" */;
+			buildPhases = (
+				B4FCAFD5D54D52D128E43901 /* [CP] Check Pods Manifest.lock */,
+				6C72F95526D3AA4500670EF2 /* Sources */,
+				6C72F95626D3AA4500670EF2 /* Frameworks */,
+				6C72F95726D3AA4500670EF2 /* Resources */,
+				72C5EE86E7584ED0E3F7D7B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proteinTechApp;
+			productName = proteinTechApp;
+			productReference = 6C72F95926D3AA4500670EF2 /* proteinTechApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C72F97126D3AA4700670EF2 /* proteinTechAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C72F98926D3AA4700670EF2 /* Build configuration list for PBXNativeTarget "proteinTechAppTests" */;
+			buildPhases = (
+				135242B8E83E648092C8B365 /* [CP] Check Pods Manifest.lock */,
+				6C72F96E26D3AA4700670EF2 /* Sources */,
+				6C72F96F26D3AA4700670EF2 /* Frameworks */,
+				6C72F97026D3AA4700670EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C72F97426D3AA4700670EF2 /* PBXTargetDependency */,
+			);
+			name = proteinTechAppTests;
+			productName = proteinTechAppTests;
+			productReference = 6C72F97226D3AA4700670EF2 /* proteinTechAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C72F97C26D3AA4700670EF2 /* proteinTechAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C72F98C26D3AA4700670EF2 /* Build configuration list for PBXNativeTarget "proteinTechAppUITests" */;
+			buildPhases = (
+				D0283B4147BA7359F1EE9F76 /* [CP] Check Pods Manifest.lock */,
+				6C72F97926D3AA4700670EF2 /* Sources */,
+				6C72F97A26D3AA4700670EF2 /* Frameworks */,
+				6C72F97B26D3AA4700670EF2 /* Resources */,
+				81DFFE767BA4FBE7F4E3E300 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C72F97F26D3AA4700670EF2 /* PBXTargetDependency */,
+			);
+			name = proteinTechAppUITests;
+			productName = proteinTechAppUITests;
+			productReference = 6C72F97D26D3AA4700670EF2 /* proteinTechAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C72F95126D3AA4500670EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6C72F95826D3AA4500670EF2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6C72F97126D3AA4700670EF2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6C72F95826D3AA4500670EF2;
+					};
+					6C72F97C26D3AA4700670EF2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6C72F95826D3AA4500670EF2;
+					};
+				};
+			};
+			buildConfigurationList = 6C72F95426D3AA4500670EF2 /* Build configuration list for PBXProject "proteinTechApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C72F95026D3AA4500670EF2;
+			productRefGroup = 6C72F95A26D3AA4500670EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C72F95826D3AA4500670EF2 /* proteinTechApp */,
+				6C72F97126D3AA4700670EF2 /* proteinTechAppTests */,
+				6C72F97C26D3AA4700670EF2 /* proteinTechAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C72F95726D3AA4500670EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72F96C26D3AA4600670EF2 /* LaunchScreen.storyboard in Resources */,
+				6C72F96926D3AA4600670EF2 /* Assets.xcassets in Resources */,
+				6C72F96426D3AA4500670EF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72F97026D3AA4700670EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72F97B26D3AA4700670EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		135242B8E83E648092C8B365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proteinTechAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C5EE86E7584ED0E3F7D7B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-proteinTechApp/Pods-proteinTechApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-proteinTechApp/Pods-proteinTechApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-proteinTechApp/Pods-proteinTechApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DFFE767BA4FBE7F4E3E300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-proteinTechApp-proteinTechAppUITests/Pods-proteinTechApp-proteinTechAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-proteinTechApp-proteinTechAppUITests/Pods-proteinTechApp-proteinTechAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-proteinTechApp-proteinTechAppUITests/Pods-proteinTechApp-proteinTechAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FCAFD5D54D52D128E43901 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proteinTechApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0283B4147BA7359F1EE9F76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proteinTechApp-proteinTechAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C72F95526D3AA4500670EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC21EA226D8629F00D2960A /* KingFisherImageViewExtension.swift in Sources */,
+				6C2E07F526D81AA6003E5296 /* FriendViewModel.swift in Sources */,
+				6C2E07EB26D41839003E5296 /* friendsDetail.swift in Sources */,
+				6C72F96126D3AA4500670EF2 /* signInViewController.swift in Sources */,
+				6C72F96726D3AA4500670EF2 /* proteinTechApp.xcdatamodeld in Sources */,
+				6C2E07E926D41644003E5296 /* friendsTableViewController.swift in Sources */,
+				6C72F95D26D3AA4500670EF2 /* AppDelegate.swift in Sources */,
+				6C2E07F126D52009003E5296 /* Service.swift in Sources */,
+				6C72F95F26D3AA4500670EF2 /* SceneDelegate.swift in Sources */,
+				6C2E07EF26D518C5003E5296 /* Model.swift in Sources */,
+				6C2E07F726D820F2003E5296 /* friendsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72F96E26D3AA4700670EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72F97726D3AA4700670EF2 /* proteinTechAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72F97926D3AA4700670EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72F98226D3AA4700670EF2 /* proteinTechAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C72F97426D3AA4700670EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C72F95826D3AA4500670EF2 /* proteinTechApp */;
+			targetProxy = 6C72F97326D3AA4700670EF2 /* PBXContainerItemProxy */;
+		};
+		6C72F97F26D3AA4700670EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C72F95826D3AA4500670EF2 /* proteinTechApp */;
+			targetProxy = 6C72F97E26D3AA4700670EF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C72F96226D3AA4500670EF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C72F96326D3AA4500670EF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C72F96A26D3AA4600670EF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C72F96B26D3AA4600670EF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C72F98426D3AA4700670EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C72F98526D3AA4700670EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C72F98726D3AA4700670EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9280C47C3257F078F61FF3 /* Pods-proteinTechApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
+				INFOPLIST_FILE = proteinTechApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanyildiz.proteinTechApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C72F98826D3AA4700670EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D48DCF382D8762FEE6A9006 /* Pods-proteinTechApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
+				INFOPLIST_FILE = proteinTechApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanyildiz.proteinTechApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6C72F98A26D3AA4700670EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA23F9FCF54294B080F1A60 /* Pods-proteinTechAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
+				INFOPLIST_FILE = proteinTechAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanyildiz.proteinTechAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proteinTechApp.app/proteinTechApp";
+			};
+			name = Debug;
+		};
+		6C72F98B26D3AA4700670EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE7A389982288182AF74DFF /* Pods-proteinTechAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
+				INFOPLIST_FILE = proteinTechAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanyildiz.proteinTechAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proteinTechApp.app/proteinTechApp";
+			};
+			name = Release;
+		};
+		6C72F98D26D3AA4700670EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01173D41C4C085DF4875765D /* Pods-proteinTechApp-proteinTechAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
+				INFOPLIST_FILE = proteinTechAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanyildiz.proteinTechAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = proteinTechApp;
+			};
+			name = Debug;
+		};
+		6C72F98E26D3AA4700670EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0CF0F67B306B37164CF90A /* Pods-proteinTechApp-proteinTechAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA4N3Z96QZ;
+				INFOPLIST_FILE = proteinTechAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanyildiz.proteinTechAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = proteinTechApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C72F95426D3AA4500670EF2 /* Build configuration list for PBXProject "proteinTechApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C72F98426D3AA4700670EF2 /* Debug */,
+				6C72F98526D3AA4700670EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C72F98626D3AA4700670EF2 /* Build configuration list for PBXNativeTarget "proteinTechApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C72F98726D3AA4700670EF2 /* Debug */,
+				6C72F98826D3AA4700670EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C72F98926D3AA4700670EF2 /* Build configuration list for PBXNativeTarget "proteinTechAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C72F98A26D3AA4700670EF2 /* Debug */,
+				6C72F98B26D3AA4700670EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C72F98C26D3AA4700670EF2 /* Build configuration list for PBXNativeTarget "proteinTechAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C72F98D26D3AA4700670EF2 /* Debug */,
+				6C72F98E26D3AA4700670EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C72F96526D3AA4500670EF2 /* proteinTechApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C72F96626D3AA4500670EF2 /* proteinTechApp.xcdatamodel */,
+			);
+			currentVersion = 6C72F96626D3AA4500670EF2 /* proteinTechApp.xcdatamodel */;
+			path = proteinTechApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C72F95126D3AA4500670EF2 /* Project object */;
+}
